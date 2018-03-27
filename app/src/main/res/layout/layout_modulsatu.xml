@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#D8BFD8"
+    android:padding="16dp"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="100dp"
+        android:paddingRight="100dp"
+        android:layout_height="wrap_content"
+        android:textColor="#4169E1"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:fontFamily="arial"
+        android:text="Modul 1"/>
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="2dp"
+        android:background="#000000"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#8B008B"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:fontFamily="arial"
+        android:text="Nama : Muhammad Syaiful Rizal"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FF1493"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:fontFamily="arial"
+        android:text="Nim    : 140411100054"/>
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="2dp"
+        android:background="#000000"/>
+
+</LinearLayout>
