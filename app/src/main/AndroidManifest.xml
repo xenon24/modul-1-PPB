@@ -18,6 +18,9 @@
         </activity>
         <activity android:name=".ModulSatu"/>
         <activity android:name=".ShowGreeting"/>
+        <activity android:name=".ModulDua"/>
+        <activity android:name=".ModulTiga"/>
+        <activity android:name=".ModulTigaSecond"/>
     </application>
 
 </manifest>

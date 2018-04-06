@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:padding="16dp"
+    android:padding="10dp"
     android:orientation="vertical"
     android:layout_height="match_parent">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textColor="@color/abuAbu"
         android:text="Tekan tombol dibawah untuk menerima sambutan yang ramah dari android"
         android:gravity="center"/>
 
@@ -18,8 +19,8 @@
         android:layout_marginVertical="100dp"
         android:textSize="18sp"
         android:textStyle="bold"
-        android:textColor="#FFFFFF"
-        android:background="#4682B4"
+        android:textColor="@color/putih"
+        android:background="@color/biruMuda"
         android:id="@+id/showmodulsatu"/>
 
 </LinearLayout>

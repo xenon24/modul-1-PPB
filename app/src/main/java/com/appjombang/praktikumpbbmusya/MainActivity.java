@@ -5,7 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.Toast;
+
 
 public class MainActivity extends AppCompatActivity {
 
@@ -23,5 +23,26 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(btgree);
             }
         });
+
+        Button btndua = (Button) findViewById (R.id.btnmoduldua);
+        btndua.setOnClickListener (new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                Intent mdldua = new Intent (getApplicationContext(),ModulDua.class );
+                startActivity(mdldua);
+            }
+        } );
+
+        Button btntiga = (Button) findViewById (R.id.btnmodultiga);
+        btntiga.setOnClickListener (new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                Intent mdltiga = new Intent (getApplicationContext(),ModulTiga.class );
+                startActivity(mdltiga);
+            }
+        } );
+
     }
 }

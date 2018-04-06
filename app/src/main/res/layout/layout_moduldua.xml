@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/halo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hello World"
+        android:fontFamily="arial"
+        android:layout_margin="30dp"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/tombolsatu"
+        android:textColor="@color/putih"
+        android:background="@color/biruMuda"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:text="Change Font Size"
+        android:textSize="25sp"/>
+
+    <Button
+        android:id="@+id/tomboldua"
+        android:textColor="@color/putih"
+        android:background="@color/hijauMuda"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:text="Change Color"
+        android:textSize="25sp"/>
+
+    <Button
+        android:id="@+id/tomboltiga"
+        android:textColor="@color/putih"
+        android:background="@color/biruMuda"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:text="Change Text"
+        android:textSize="25sp"/>
+
+</LinearLayout>

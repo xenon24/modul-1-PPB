@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+        <TextView
+            android:id="@+id/tvlihat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Input Form"
+            android:layout_margin="2dp"
+            android:layout_marginBottom="10dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textSize="18sp"/>
+    </LinearLayout>
+
+    <GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="12dp"
+        android:layout_marginBottom="150dp"
+        android:columnCount="2"
+        android:rowCount="3">
+        <TextView
+            android:id="@+id/tvLihat1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:layout_margin="2dp"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/edt1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:ems="10"/>
+
+        <TextView
+            android:id="@+id/tvLihat2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Reg.No"
+            android:layout_margin="2dp"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:textSize="18sp"/>
+
+        <EditText
+            android:id="@+id/edt2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:layout_row="1"
+            android:layout_column="1"
+            android:inputType="number"
+            android:ems="10"/>
+
+        <TextView
+            android:id="@+id/tvLihat3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dept"
+            android:layout_margin="2dp"
+            android:layout_row="2"
+            android:layout_column="0"
+            android:textSize="18sp"/>
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:layout_row="2"
+            android:layout_column="1"
+            android:spinnerMode="dropdown"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tgl.Lhr"
+            android:layout_margin="2dp"
+            android:textSize="18sp"/>
+
+        <Button
+            android:id="@+id/tmblTanggal"
+            android:textColor="@color/putih"
+            android:background="@color/pink"
+            android:text="Calender"/>
+
+        <GridLayout></GridLayout>
+        <EditText
+            android:id="@+id/txttgl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:hint="dd-MM-yyyy"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kota lahir"
+            android:layout_margin="2dp"
+            android:textSize="18sp"/>
+
+        <EditText
+            android:id="@+id/edt4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:ems="10"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hobi"
+            android:layout_margin="2dp"
+            android:textSize="18sp"/>
+
+        <EditText
+            android:id="@+id/edt5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:ems="10"
+            />
+    </GridLayout>
+
+    <Button
+        android:id="@+id/tombl"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="10dp"
+        android:textColor="@color/putih"
+        android:background="@color/biruMuda"
+        android:text="Submit"/>
+
+</RelativeLayout>

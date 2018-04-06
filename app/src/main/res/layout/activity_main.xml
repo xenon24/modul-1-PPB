@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="16dp"
+    android:padding="10dp"
     android:orientation="vertical"
     tools:context="com.appjombang.praktikumpbbmusya.MainActivity">
 
@@ -12,7 +12,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="18sp"
-            android:textColor="#8B008B"
+            android:textColor="@color/ungu"
             android:textStyle="bold"
             android:fontFamily="arial"
             android:text="MUHAMMAD SYAIFUL RIZAL"/>
@@ -20,7 +20,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textColor="#FF1493"
+            android:textColor="@color/pink"
             android:paddingBottom="5dp"
             android:text="140411100054"
             android:id="@+id/nim"/>
@@ -28,12 +28,12 @@
         <View
             android:layout_width="wrap_content"
             android:layout_height="2dp"
-            android:background="#C0C0C0"/>
+            android:background="@color/abuAbu"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textColor="#FF1493"
+            android:textColor="@color/pink"
             android:paddingTop="5dp"
             android:textStyle="bold"
             android:text="List Modul Activity"
@@ -54,8 +54,8 @@
                      android:id="@+id/btnmodulsatu"
                      android:layout_width="match_parent"
                      android:layout_height="wrap_content"
-                     android:textColor="#FFFFFF"
-                     android:background="#4682B4"
+                     android:textColor="@color/putih"
+                     android:background="@color/biruMuda"
                      android:layout_margin="2dp"
                      android:text="Modul 1 Pengenalan Lingkungan Android dan Struktur Data"/>
 
@@ -64,26 +64,26 @@
                      android:layout_width="match_parent"
                      android:layout_height="wrap_content"
                      android:layout_margin="2dp"
-                     android:textColor="#FFFFFF"
-                     android:background="#008080"
-                     android:text="Modul 2"/>
+                     android:textColor="@color/putih"
+                     android:background="@color/hijauMuda"
+                     android:text="Modul 2 Aplikasi Android dengan Menggunakan Komponen Antarmuka, Huruf dan Warna"/>
 
                  <Button
                      android:id="@+id/btnmodultiga"
                      android:layout_width="match_parent"
                      android:layout_height="wrap_content"
                      android:layout_margin="2dp"
-                     android:textColor="#FFFFFF"
-                     android:background="#4682B4"
-                     android:text="Modul 3"/>
+                     android:textColor="@color/putih"
+                     android:background="@color/biruMuda"
+                     android:text="Modul 3 Aplikasi Android dengan Layout dan Pendengar Event "/>
 
                  <Button
                      android:id="@+id/btnmodulempat"
                      android:layout_width="match_parent"
                      android:layout_height="wrap_content"
                      android:layout_margin="2dp"
-                     android:textColor="#FFFFFF"
-                     android:background="#008080"
+                     android:textColor="@color/putih"
+                     android:background="@color/hijauMuda"
                      android:text="Modul 4"/>
 
                  <Button
@@ -91,8 +91,8 @@
                      android:layout_width="match_parent"
                      android:layout_height="wrap_content"
                      android:layout_margin="2dp"
-                     android:textColor="#FFFFFF"
-                     android:background="#4682B4"
+                     android:textColor="@color/putih"
+                     android:background="@color/biruMuda"
                      android:text="Modul 5"/>
 
                  <Button
@@ -100,8 +100,8 @@
                      android:layout_width="match_parent"
                      android:layout_height="wrap_content"
                      android:layout_margin="2dp"
-                     android:textColor="#FFFFFF"
-                     android:background="#008080"
+                     android:textColor="@color/putih"
+                     android:background="@color/hijauMuda"
                      android:text="Modul 6"/>
 
                  <Button
@@ -109,8 +109,8 @@
                      android:layout_width="match_parent"
                      android:layout_height="wrap_content"
                      android:layout_margin="2dp"
-                     android:textColor="#FFFFFF"
-                     android:background="#4682B4"
+                     android:textColor="@color/putih"
+                     android:background="@color/biruMuda"
                      android:text="Modul 7"/>
 
                  <Button
@@ -118,8 +118,8 @@
                      android:layout_width="match_parent"
                      android:layout_height="wrap_content"
                      android:layout_margin="2dp"
-                     android:textColor="#FFFFFF"
-                     android:background="#008080"
+                     android:textColor="@color/putih"
+                     android:background="@color/hijauMuda"
                      android:text="Modul 8"/>
 
 

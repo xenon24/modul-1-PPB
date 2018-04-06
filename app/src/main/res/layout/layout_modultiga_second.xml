@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@color/aliceBlue"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Detail Form"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="15dp"
+        android:textSize="18sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name     : "
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tvLht1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="isi dengan nama"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Reg.No   : "
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tvLht2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="isi dengan nomer registrasi anda"
+            android:textSize="18sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dept        : "
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tvLht3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="isi dengan dept anda"
+            android:textSize="18sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tgl.Lhr    : "
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tvlht4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="isi dengan tanggal lahir anda"
+            android:textSize="18sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kota.Lhr  : "
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tvlht5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="isi dengan kota lahir anda"
+            android:textSize="18sp"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hobi        : "
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tvlht6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="isi dengan hobi anda"
+            android:textSize="18sp"/>
+    </LinearLayout>
+
+</LinearLayout>

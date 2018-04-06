@@ -3,4 +3,12 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+    <color name="ungu">#8B008B</color>
+    <color name="pink">#FF1493</color>
+    <color name="abuAbu">#C0C0C0</color>
+    <color name="putih">#FFFFFF</color>
+    <color name="biruMuda">#4682B4</color>
+    <color name="hijauMuda">#008080</color>
+    <color name="hitam">#000000</color>
+    <color name="aliceBlue">#F0F8FF</color>
 </resources>
