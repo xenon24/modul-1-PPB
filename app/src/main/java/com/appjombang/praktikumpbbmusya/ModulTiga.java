@@ -49,7 +49,6 @@ public class ModulTiga extends AppCompatActivity {
         e2=(EditText)findViewById ( R.id.edt2 );
         e4=(EditText ) findViewById ( R.id.edt4 );
         e5=(EditText ) findViewById ( R.id.edt5 );
-        tanggal=(EditText ) findViewById ( R.id.txttgl );
         bt=(Button)findViewById ( R.id.tombl );
         s=(Spinner)findViewById ( R.id.spinner );
 
@@ -83,9 +82,6 @@ public class ModulTiga extends AppCompatActivity {
             }
         } );
 
-        dateFormatter = new SimpleDateFormat ( "dd-MM-yyyy", Locale.US );
-        tanggal =(EditText) findViewById ( R.id.txttgl );
-        tgl = (Button) findViewById ( R.id.tmblTanggal );
         tgl.setOnClickListener ( new View.OnClickListener () {
             @Override
             public void onClick(View v) {

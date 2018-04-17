@@ -84,7 +84,7 @@
                      android:layout_margin="2dp"
                      android:textColor="@color/putih"
                      android:background="@color/hijauMuda"
-                     android:text="Modul 4"/>
+                     android:text="Modul 4 Aplikasi Android dengan ListView "/>
 
                  <Button
                      android:id="@+id/btnmodullima"

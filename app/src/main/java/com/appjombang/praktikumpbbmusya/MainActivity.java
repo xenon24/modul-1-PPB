@@ -44,5 +44,15 @@ public class MainActivity extends AppCompatActivity {
             }
         } );
 
+        Button btnempat = (Button) findViewById (R.id.btnmodulempat);
+        btnempat.setOnClickListener (new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                Intent mdlempat = new Intent (getApplicationContext(),ModulEmpat.class);
+                startActivity(mdlempat);
+            }
+        } );
+
     }
 }
