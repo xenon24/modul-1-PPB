@@ -93,7 +93,7 @@
                      android:layout_margin="2dp"
                      android:textColor="@color/putih"
                      android:background="@color/biruMuda"
-                     android:text="Modul 5"/>
+                     android:text="Modul 5 Aplikasi Android dengan Fragmen"/>
 
                  <Button
                      android:id="@+id/btnmodulenam"

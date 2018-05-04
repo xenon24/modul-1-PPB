@@ -23,6 +23,8 @@
         <activity android:name=".ModulTiga"/>
         <activity android:name=".ModulTigaSecond"/>
         <activity android:name=".ModulEmpat"/>
+        <activity android:name=".ModulLima"/>
+        <activity android:name=".ModulLimaDrawing"/>
     </application>
 
 </manifest>

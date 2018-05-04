@@ -54,5 +54,13 @@ public class MainActivity extends AppCompatActivity {
             }
         } );
 
+        Button btnlima = (Button) findViewById ( R.id.btnmodullima );
+        btnlima.setOnClickListener ( new View.OnClickListener () {
+            @Override
+            public void onClick(View view) {
+                Intent mdllima = new Intent ( getApplicationContext (), ModulLima.class );
+                startActivity ( mdllima );
+            }
+        } );
     }
 }
