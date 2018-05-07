@@ -25,6 +25,7 @@
         <activity android:name=".ModulEmpat"/>
         <activity android:name=".ModulLima"/>
         <activity android:name=".ModulLimaDrawing"/>
+        <activity android:name=".ModulEnam"/>
     </application>
 
 </manifest>

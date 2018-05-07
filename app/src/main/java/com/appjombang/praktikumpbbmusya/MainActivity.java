@@ -62,5 +62,14 @@ public class MainActivity extends AppCompatActivity {
                 startActivity ( mdllima );
             }
         } );
+
+        Button btnenam = (Button) findViewById ( R.id.btnmodulenam );
+        btnenam.setOnClickListener ( new View.OnClickListener () {
+            @Override
+            public void onClick(View view) {
+                Intent mdlenam = new Intent ( getApplicationContext (), ModulEnam.class );
+                startActivity ( mdlenam );
+            }
+        } );
     }
 }

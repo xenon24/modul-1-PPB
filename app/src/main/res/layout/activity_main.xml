@@ -102,7 +102,7 @@
                      android:layout_margin="2dp"
                      android:textColor="@color/putih"
                      android:background="@color/hijauMuda"
-                     android:text="Modul 6"/>
+                     android:text="Modul 6 Menampilkan Dialog Dengan Dialog Fragment"/>
 
                  <Button
                      android:id="@+id/btnmodultujuh"
